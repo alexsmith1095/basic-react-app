@@ -1,0 +1,22 @@
+@import "_config.scss";
+
+.container {
+    color: $charcoal;
+    max-width: 500px;
+    margin: 60px;
+
+    h1 {
+      color: $charcoal;
+    }
+
+    a {
+      color: $charcoal;
+      text-decoration: none;
+      border-bottom: 1px dotted $charcoal;
+      @include transition(border-color .2s ease-in-out);
+
+      &:hover {
+        border-color: transparent;
+      }
+    }
+}

@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i');
+
+/* variables */
+$charcoal: #2B2B2B;
+$white: #F7F7F7;
+$red: #FF3B30;
+$orange: #FF9500;
+$yellow: #FFCC00;
+$green: #4CD964;
+$lightBlue: #34AADC;
+$blue: #007AFF;
+$black: #1F1F21;
+$spaceGrey: #8E8E93;
+$grey: #C7C7CC;
+$purple: #5856D6;
+$magenta: #FF2D55;
+
+body {
+  font-family: 'Open Sans', sans-serif !important;
+}
+
+/* mixins */
+@mixin translateY($e) {
+  -webkit-transform: translateY($e);
+     -moz-transform: translateY($e);
+          transform: translateY($e);
+}
+
+@mixin transition($e) {
+  -webkit-transition: $e;
+     -moz-transition: $e;
+          transition: $e;
+}
